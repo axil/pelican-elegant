@@ -184,7 +184,8 @@ article div.article-content ul:not(.articles-timeline) a:hover {
     text-shadow: none;
 }
 .article-content, div.recent-posts p {
-    font: 1.2em/1.6em 'PT Serif', Georgia, 'Times New Roman', Times, Serif;
+/*    font: 1.2em/1.6em 'PT Serif', Georgia, 'Times New Roman', Times, Serif;*/
+    font-family: 'PT Serif', Georgia, 'Times New Roman', Times, Serif;
     text-align: justify;
 }
 .article-content {
@@ -198,6 +199,7 @@ article div.article-content ul:not(.articles-timeline) a:hover {
 }
 .article-content p {
     margin: 20px 0;
+    font-size: 1.1em;
 }
 .article-content blockquote {
     border-left: 0;
