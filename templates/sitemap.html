@@ -3,14 +3,14 @@
 
 {% for article in articles %}
   <url>
-    <loc>{{ SITEURL }}/{{ article.url }}</loc>
+    <loc>http://axil.github.io/{{ article.url }}</loc>
     <priority>0.8</priority>
     <lastmod>{{ article.date.date() }}</lastmod>
   </url>
 
   {% for translation in article.translations %}
   <url>
-    <loc>{{ SITEURL }}/{{ translation.url }}</loc>
+    <loc>http://axil.github.io/{{ translation.url }}</loc>
     <priority>0.8</priority>
   </url>
   {% endfor %}
@@ -18,13 +18,13 @@
 
 {% for page in pages %}
   <url>
-    <loc>{{ SITEURL }}/{{ page.url }}</loc>
+    <loc>http://axil.github.io/{{ page.url }}</loc>
     <priority>1.0</priority>
   </url>
 
   {% for translation in page.translations %}
   <url>
-    <loc>{{ SITEURL }}/{{ translation.url }}</loc>
+    <loc>http://axil.github.io/{{ translation.url }}</loc>
     <priority>1.0</priority>
   </url>
   {% endfor %}
